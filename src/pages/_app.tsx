@@ -1,14 +1,14 @@
 import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
-import {Roboto,M_PLUS_1_Code } from '@next/font/google'
+import {M_PLUS_1_Code } from '@next/font/google'
 
 
-const roboto = Roboto({ subsets: ['latin'], weight:['400','700'] })
-const mplus = M_PLUS_1_Code({ subsets: ['latin'] })
+const mplus = M_PLUS_1_Code({ subsets: ['latin'], variable: '--font-mplus'})
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <main className={mplus.className}>
+    
+    <main className={`${mplus.variable} font-sans`}>
       <Component {...pageProps} />
     </main>
   )
