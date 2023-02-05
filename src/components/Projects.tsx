@@ -3,7 +3,7 @@ import Project from './Project'
 
 const Projects = () => {
   return (
-    <div className='text-white bg-[#252A34] p-5'>
+    <div className='text-white bg-[#252A34] p-5 laptop:px-72'>
         <h1 className='text-center text-4xl'>Projects</h1>
         <h2 className='text-center mb-6'>Personal projects I have worked on</h2>
         <Project title={'StayHereLah'} desc = {"A platform to streamline the planning process of purchasing a BTO in Singapore as the current rules and regulations provided by HDB can be a hassle and confusing for first time buyers."} imglink={"/images/stayherelah.png"} date = {"Oct - Nov 2022"}/>
