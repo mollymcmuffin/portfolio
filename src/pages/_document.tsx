@@ -5,6 +5,8 @@ export default function Document() {
     <Html lang="en">
       <Head>
       <link rel="preconnect" href="https://fonts.googleapis.com"/>
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin=""/>
+      <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@400;700&display=swap" rel="stylesheet"/>
       <title>Zheng Xuan | Dev</title>  
       </Head> 
       <body>

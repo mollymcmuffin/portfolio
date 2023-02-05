@@ -11,11 +11,7 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {
-      fontFamily: {
-        sans: ["var(--font-mplus)", ...fontFamily.sans],
-      },
-    },
+    extend: {},
     screens: { laptop: "1024px" },
   },
   plugins: [],
