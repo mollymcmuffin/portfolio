@@ -9,7 +9,7 @@ const Projects = () => {
       <h2 className="mb-6 text-base text-center">
         Personal projects I have worked on
       </h2>
-      <div className="flex flex-col gap-2">
+      <div className="flex flex-col gap-2 mb-8">
         <Project
           title={"StayHereLah"}
           desc={
@@ -27,7 +27,7 @@ const Projects = () => {
           <Tech imglink={"images/firebaselogo.svg"} title={"Firebase"} />
         </div>
       </div>
-      <div className="flex flex-col gap-2">
+      <div className="flex flex-col gap-2 mb-8">
         <Project
           title={"Clothing E-Commerce"}
           desc={
@@ -36,7 +36,7 @@ const Projects = () => {
           imglink={"/images/ecommerce.png"}
           date={"July 2022 - July 2022"}
         />
-        <div className="flex justify-start gap-6 p-2 mb-6 bg-slate-500 rounded-[8px] box-border">
+        <div className="flex justify-start gap-6 p-2 mb-8 bg-slate-500 rounded-[8px] box-border">
           <Tech imglink={"images/reactlogo.svg"} title={"React"} />
           <Tech
             imglink={"images/styledcomponentslogo.svg"}
