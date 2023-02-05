@@ -10,15 +10,15 @@ type Props={
 
 const Project = ({title,desc,imglink, date}:Props) => {
   return (
-    <div className='flex flex-col items-center mb-5 bg-black box-border'>
-        <img src={imglink} alt='StayHereLah'/>
+    <div className='flex flex-col mb-10 bg-[#252A34] box-border gap-2'>
+        <img src={imglink} alt={title}/>
         <h2 className='text-xl'>
             {title}
         </h2>
-        <h3>
+        <h3 className='text-slate-400 italic'>
             {date}
         </h3>
-        <p>
+        <p className='text-sm'>
         {desc}
         </p>
     </div>
